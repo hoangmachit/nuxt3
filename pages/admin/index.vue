@@ -751,6 +751,10 @@
 </template>
 
 <script>
+definePageMeta({
+  layout: "admin",
+  middleware: ["auth-admin"],
+});
 export default {};
 </script>
 

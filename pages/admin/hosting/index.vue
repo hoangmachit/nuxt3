@@ -1,3 +1,9 @@
 <template>
-    <h1>Hosting Page</h1>
+  <h1>Hosting Page</h1>
 </template>
+<script>
+definePageMeta({
+  layout: "admin",
+});
+export default {};
+</script>
