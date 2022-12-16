@@ -15,5 +15,5 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ["@/assets/admin/css/tabler.min.css"],
+  css: ["@/assets/admin/css/tabler.min.css",  "@/assets/admin/css/admin.css"],
 });

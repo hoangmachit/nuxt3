@@ -14,22 +14,7 @@
             data-bs-toggle="modal"
             data-bs-target="#modal-contract_index"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg>
+            <AdminIconPlus />
             Tạo mới hợp đồng
           </a>
           <a
@@ -39,22 +24,7 @@
             data-bs-target="#modal-contract_index"
             aria-label="Create new report"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg>
+            <AdminIconPlus />
           </a>
         </div>
       </template>
@@ -296,21 +266,7 @@
                   </th>
                   <th class="w-1">
                     No.
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-sm icon-thick"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      stroke-width="2"
-                      stroke="currentColor"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <polyline points="6 15 12 9 18 15" />
-                    </svg>
+                    <AdminIconArrowDown />
                   </th>
                   <th>Invoice Subject</th>
                   <th>Client</th>

@@ -13,24 +13,7 @@
           data-bs-toggle="modal"
           data-bs-target="#modal-contract_index"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
+          <AdminIconPlus />
           Tạo mới hợp đồng
         </a>
 
@@ -41,24 +24,7 @@
           data-bs-target="#modal-contract_index"
           aria-label="Create new report"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
+          <AdminIconPlus />
         </a>
       </div>
     </template>
@@ -382,7 +348,7 @@
 
                       <span class="form-selectgroup-label-content">
                         <span class="form-selectgroup-title strong mb-1"
-                          >Thanh toán đợt 1</span
+                          >Đợt 1</span
                         >
 
                         <span class="d-block text-muted"
@@ -888,7 +854,7 @@
                         <div class="row">
                           <div class="col-lg-6 col-ms-12">
                             <div class="mb-3">
-                              <label class="form-label">Thanh toán đợt 1</label>
+                              <label class="form-label">TT Đợt 1</label>
                               <input
                                 type="text"
                                 class="form-control"
@@ -898,7 +864,7 @@
                           </div>
                           <div class="col-lg-6 col-sm-2">
                             <div class="mb-3">
-                              <label class="form-label">Thanh toán đợt 2</label>
+                              <label class="form-label">TT Đợt 2</label>
                               <input
                                 type="text"
                                 class="form-control"
@@ -1050,9 +1016,9 @@
 
                 <th>Ngày kí</th>
 
-                <th>Thanh toán đợt 1</th>
+                <th>T/Toán đợt 1</th>
 
-                <th>Thanh toán đợt 2</th>
+                <th>T/Toán đợt 2</th>
 
                 <th>Tên Miền</th>
 
@@ -1062,7 +1028,7 @@
 
                 <th>Trạng thái</th>
 
-                <th>Giá cũ</th>
+                <th>Giá</th>
               </tr>
             </thead>
 
@@ -1082,7 +1048,7 @@
                 <td><span class="text-muted">#5</span></td>
 
                 <td>
-                  <h3 class="title-name">021022W</h3>
+                  <h3 class="contract-code">021022W</h3>
                 </td>
 
                 <td>
@@ -1094,7 +1060,7 @@
                 </td>
 
                 <td>
-                  <span>Sunday 16/10/2022</span>
+                  <span>16/10/2022</span>
                 </td>
 
                 <td>
@@ -1160,11 +1126,11 @@
                 </td>
 
                 <td>
-                  <span
-                    ><b>8.000.000</b>
-
-                    <sup>vnđ<sup></sup></sup
-                  ></span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+</svg></span>
                 </td>
               </tr>
 
@@ -1183,7 +1149,7 @@
                 <td><span class="text-muted">#4</span></td>
 
                 <td>
-                  <h3 class="title-name">011022W</h3>
+                  <h3 class="contract-code">011022W</h3>
                 </td>
 
                 <td>
@@ -1193,7 +1159,7 @@
                 </td>
 
                 <td>
-                  <span>Wednesday 05/10/2011</span>
+                  <span>05/10/2011</span>
                 </td>
 
                 <td>
@@ -1260,10 +1226,11 @@
 
                 <td>
                   <span
-                    ><b>8.000.000</b>
-
-                    <sup>vnđ<sup></sup></sup
-                  ></span>
+                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+</svg></span>
                 </td>
               </tr>
 
@@ -1282,7 +1249,7 @@
                 <td><span class="text-muted">#3</span></td>
 
                 <td>
-                  <h3 class="title-name">code003</h3>
+                  <h3 class="contract-code">code003</h3>
                 </td>
 
                 <td>
@@ -1292,7 +1259,7 @@
                 </td>
 
                 <td>
-                  <span>Saturday 18/06/2022</span>
+                  <span>18/06/2022</span>
                 </td>
 
                 <td>
@@ -1359,10 +1326,11 @@
 
                 <td>
                   <span
-                    ><b>3.150.000</b>
-
-                    <sup>vnđ<sup></sup></sup
-                  ></span>
+                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+</svg></span>
                 </td>
               </tr>
 
@@ -1381,7 +1349,7 @@
                 <td><span class="text-muted">#2</span></td>
 
                 <td>
-                  <h3 class="title-name">code 001</h3>
+                  <h3 class="contract-code">code 001</h3>
                 </td>
 
                 <td>
@@ -1391,7 +1359,7 @@
                 </td>
 
                 <td>
-                  <span>Friday 17/06/2022</span>
+                  <span>17/06/2022</span>
                 </td>
 
                 <td>
@@ -1458,10 +1426,11 @@
 
                 <td>
                   <span
-                    ><b>5.899.000</b>
-
-                    <sup>vnđ<sup></sup></sup
-                  ></span>
+                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+</svg></span>
                 </td>
               </tr>
 
@@ -1480,7 +1449,7 @@
                 <td><span class="text-muted">#1</span></td>
 
                 <td>
-                  <h3 class="title-name">code001</h3>
+                  <h3 class="contract-code">code001</h3>
                 </td>
 
                 <td>
@@ -1490,7 +1459,7 @@
                 </td>
 
                 <td>
-                  <span>Friday 17/06/2022</span>
+                  <span>17/06/2022</span>
                 </td>
 
                 <td>
@@ -1557,10 +1526,11 @@
 
                 <td>
                   <span
-                    ><b>5.249.000</b>
-
-                    <sup>vnđ<sup></sup></sup
-                  ></span>
+                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+</svg></span>
                 </td>
               </tr>
             </tbody>

@@ -344,23 +344,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin" title="Home">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
-                  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
-                  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
-                </svg>
+                <AdminIconHome />
               </span>
               <span class="nav-link-title"> Home </span>
             </NuxtLink>
@@ -368,27 +352,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/contract" title="Hợp đồng">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline
-                    points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"
-                  ></polyline>
-                  <line x1="12" y1="12" x2="20" y2="7.5"></line>
-                  <line x1="12" y1="12" x2="12" y2="21"></line>
-                  <line x1="12" y1="12" x2="4" y2="7.5"></line>
-                  <line x1="16" y1="5.25" x2="8" y2="9.75"></line>
-                </svg>
+                <AdminIconContract />
               </span>
               <span class="nav-link-title"> Hợp đồng </span>
             </NuxtLink>
@@ -396,22 +360,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/customer" title="Khách hàng">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
-                </svg>
+                <AdminIconCustomer />
               </span>
               <span class="nav-link-title"> Khách hàng </span>
             </NuxtLink>
@@ -419,24 +368,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/hosting" title="Hosting">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="9 11 12 14 20 6"></polyline>
-                  <path
-                    d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
-                  ></path>
-                </svg>
+                <AdminIconHosting />
               </span>
               <span class="nav-link-title"> Hosting </span>
             </NuxtLink>
@@ -444,23 +376,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/design" title="Thiết kế">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
-                  ></path>
-                </svg>
+                <AdminIconDesign />
               </span>
               <span class="nav-link-title"> Thiết kế </span>
             </NuxtLink>
@@ -468,24 +384,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/domain" title="Tên miền">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <rect x="4" y="4" width="6" height="5" rx="2"></rect>
-                  <rect x="4" y="13" width="6" height="7" rx="2"></rect>
-                  <rect x="14" y="4" width="6" height="7" rx="2"></rect>
-                  <rect x="14" y="15" width="6" height="5" rx="2"></rect>
-                </svg>
+                <AdminIconDomain />
               </span>
               <span class="nav-link-title"> Tên miền </span>
             </NuxtLink>
@@ -493,24 +392,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/account" title="Tài khoản">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-.175 .008h-1.172a1 1 0 0 1 -.993 -.883l-.007 -.117v-1.172a2 2 0 0 1 .467 -1.284l.119 -.13l.414 -.414h2v-2h2v-2l2.144 -2.144l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0z"
-                  ></path>
-                  <path d="M15 9h.01"></path>
-                </svg>
+                <AdminIconAccount />
               </span>
               <span class="nav-link-title"> Tài khoản </span>
             </NuxtLink>
@@ -518,31 +400,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/setting" title="Setting">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <circle cx="12" cy="14" r="2"></circle>
-                  <path d="M12 10.5v1.5"></path>
-                  <path d="M12 16v1.5"></path>
-                  <path d="M15.031 12.25l-1.299 .75"></path>
-                  <path d="M10.268 15l-1.3 .75"></path>
-                  <path d="M15 15.803l-1.285 -.773"></path>
-                  <path d="M10.285 12.97l-1.285 -.773"></path>
-                  <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
-                  <path
-                    d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"
-                  ></path>
-                </svg>
+                <AdminIconSetting />
               </span>
               <span class="nav-link-title"> Cấu hình chung </span>
             </NuxtLink>
@@ -550,26 +408,7 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/admin/support" title="Support">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <circle cx="12" cy="12" r="4"></circle>
-                  <circle cx="12" cy="12" r="9"></circle>
-                  <line x1="15" y1="15" x2="18.35" y2="18.35"></line>
-                  <line x1="9" y1="15" x2="5.65" y2="18.35"></line>
-                  <line x1="5.65" y1="5.65" x2="9" y2="9"></line>
-                  <line x1="18.35" y1="5.65" x2="15" y2="9"></line>
-                </svg>
+                <AdminIconSupport />
               </span>
               <span class="nav-link-title"> Hỗ trợ 24/7 </span>
             </NuxtLink>
