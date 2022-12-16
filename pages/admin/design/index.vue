@@ -7,7 +7,7 @@
     <template #content>
       <div class="btn-list">
         <a
-          v-on:click="openModal()" 
+          v-on:click="openModal()"
           href="#"
           class="btn btn-primary d-none d-sm-inline-block"
           data-bs-toggle="modal"
@@ -330,6 +330,153 @@
       </button>
     </template>
   </ModalAdmin>
+  <AdminBody>
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Danh sách thiết kế</h3>
+        </div>
+        <div class="card-body border-bottom py-3">
+          <div class="d-flex">
+            <div class="text-muted">
+              Hiện
+              <div class="mx-2 d-inline-block">
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  readonly=""
+                  value="20"
+                  size="3"
+                  aria-label="Invoices count"
+                />
+              </div>
+              mục
+            </div>
+            <div class="ms-auto text-muted">
+              Tìm kiếm:
+              <div class="ms-2 d-inline-block">
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  aria-label="Search invoice"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table card-table table-vcenter text-nowrap datatable">
+            <thead>
+              <tr>
+                <th class="w-1">
+                  <input
+                    class="form-check-input m-0 align-middle"
+                    type="checkbox"
+                    aria-label="Select all invoices"
+                  />
+                </th>
+                <th class="w-1">
+                  No.
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-sm text-dark icon-thick"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <polyline points="6 15 12 9 18 15"></polyline>
+                  </svg>
+                </th>
+                <th>Hợp đồng</th>
+                <th>Họ &amp; tên</th>
+                <th>Đường dẫn</th>
+                <th>Bắt đầu</th>
+                <th>Hoàn thành</th>
+                <th>Ngày tạo</th>
+                <th>Trạng thái</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <input
+                    class="form-check-input m-0 align-middle"
+                    type="checkbox"
+                    aria-label="Select invoice" />
+                </td>
+                <td><span class="text-muted">1</span></td>
+                <td>
+                  <span></span>
+                </td>
+                <td>
+                  <a
+                    href="https://user.haweb.vn/dashboard/designs/5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-design-edit"
+                    class="text-reset designs_edit"
+                    tabindex="-1"
+                    data-id="5"
+                    data-contract_id="0"
+                    data-first_name="Ngọc Trân"
+                    data-last_name="Wedding"
+                    data-url="https://drive.google.com/file/d/1cztoca8xspYtNU5gHVHFEwgEnacV0mHt/view?usp=share_link"
+                    data-note=""
+                    data-date_start="2022-11-25"
+                    data-date_finish="2022-11-10"
+                    data-url_example=""
+                    data-status="public"
+                    data-font_family=""
+                    data-action="https://user.haweb.vn/dashboard/designs/5"
+                    data-photo="https://user.haweb.vn/uploads/designs/Demo.jpg"
+                    data-photo-value="Demo.jpg"
+                  >
+                    <h3 class="title-name">Ngọc Trân Wedding</h3>
+                  </a>
+                </td>
+                <td>
+                  <a
+                    href="https://user.haweb.vn/design/FoARGkIpox/5"
+                    target="_blank"
+                  >
+                    <span class="label_year pending">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-eye"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                        />
+                        <path
+                          d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </td>
+                <td>2022/11/25</td>
+                <td>2022/11/10</td>
+                <td>2022/11/25 09:47:AM</td>
+                <td>
+                  <span class="label_year public">public</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-footer d-flex align-items-center"></div>
+      </div>
+    </div>
+  </AdminBody>
 </template>
 <script setup>
 definePageMeta({
@@ -356,7 +503,6 @@ export default {
       this.showModal = false;
     },
   },
-  created() {
-  },
+  created() {},
 };
 </script>
