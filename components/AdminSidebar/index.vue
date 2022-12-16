@@ -544,7 +544,7 @@
                   ></path>
                 </svg>
               </span>
-              <span class="nav-link-title"> Settings </span>
+              <span class="nav-link-title"> Cấu hình chung </span>
             </NuxtLink>
           </li>
           <li class="nav-item">
@@ -571,7 +571,7 @@
                   <line x1="18.35" y1="5.65" x2="15" y2="9"></line>
                 </svg>
               </span>
-              <span class="nav-link-title"> Support </span>
+              <span class="nav-link-title"> Hỗ trợ 24/7 </span>
             </NuxtLink>
           </li>
         </ul>

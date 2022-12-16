@@ -204,9 +204,9 @@ definePageMeta({
   layout: "admin",
 });
 const seo = {
-  title: "Admin-Support",
-  keyword: "Keyword on Admin-Support",
-  desciption: "Description on Admin-Support",
+  title: "Admin - Support",
+  keyword: "Keyword on Admin - Support",
+  desciption: "Description on Admin - Support",
 };
 </script>
 <script>
@@ -224,7 +224,6 @@ export default {
       this.showModal = false;
     },
   },
-  created() {
-  },
+  created() {},
 };
 </script>

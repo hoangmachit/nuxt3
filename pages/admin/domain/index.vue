@@ -222,9 +222,9 @@ definePageMeta({
   layout: "admin",
 });
 const seo = {
-  title: "Admin-Domain",
-  keyword: "Keyword on Admin-Domain",
-  desciption: "Description on Admin-Domain",
+  title: "Admin - Domain",
+  keyword: "Keyword on Admin - Domain",
+  desciption: "Description on Admin - Domain",
 };
 </script>
 <script>

@@ -2,7 +2,7 @@
   <TheSEO :seo="seo" />
   <AdminOverview>
     <template #title>
-      <h2 class="page-title">Setting</h2>
+      <h2 class="page-title">Cấu hình chung</h2>
     </template>
     <template #content>
       <div class="btn-list">
@@ -204,9 +204,9 @@ definePageMeta({
   layout: "admin",
 });
 const seo = {
-  title: "Admin-Setting",
-  keyword: "Keyword on Admin-Setting",
-  desciption: "Description on Admin-Setting",
+  title: "Admin - Setting",
+  keyword: "Keyword on Admin - Setting",
+  desciption: "Description on Admin - Setting",
 };
 </script>
 <script>

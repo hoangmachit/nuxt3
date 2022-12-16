@@ -5,7 +5,7 @@
         <div class="col-lg-auto ms-lg-auto">
           <ul class="list-inline list-inline-dots mb-0">
             <li class="list-inline-item">
-              <a href="" class="link-secondary">Support</a>
+              <NuxtLink to="/admin/support" class="link-secondary" title="Hỗ trợ 24/7">Hỗ trợ 24/7</NuxtLink>
             </li>
             <li class="list-inline-item">
               <a
@@ -25,7 +25,6 @@
                 class="link-secondary"
                 rel="noopener"
               >
-                <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="icon text-pink icon-filled icon-inline"
@@ -52,7 +51,12 @@
           <ul class="list-inline list-inline-dots mb-0">
             <li class="list-inline-item">
               Copyright &copy; 2023
-              <a href="" class="link-secondary">Tabler</a>. All rights reserved.
+              <a
+                href="https://haweb.vn"
+                class="link-secondary text-decoration-none"
+                ><b>Admin</b></a
+              >
+              <span>. All rights reserved.</span>
             </li>
           </ul>
         </div>
