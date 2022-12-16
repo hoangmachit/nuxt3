@@ -1,4 +1,5 @@
 <template>
+  <TheSEO :seo="seo" />
   <div>
     <h1>About Page</h1>
     <p>
@@ -14,5 +15,10 @@
 definePageMeta({
   layout: "empty",
 });
+const seo = {
+  title: "About",
+  keyword: "Keyword on About",
+  description: "Description on About",
+};
 const { data } = useFetch("/api/hello/hoangmach");
 </script>

@@ -1,4 +1,5 @@
 <template>
+  <TheSEO :seo="seo" />
   <div>
     <h1>Contact Page</h1>
     <p>
@@ -10,10 +11,13 @@
   </div>
 </template>
 <script setup>
-console.log("check 1");
 definePageMeta({
   layout: "empty",
   middleware: ["auth-demo"],
 });
-console.log("check 2");
+const seo = {
+  title: "Contact",
+  keyword: "Keyword on Contact",
+  description: "Description on Contact",
+};
 </script>
