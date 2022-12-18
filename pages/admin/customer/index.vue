@@ -316,9 +316,6 @@
                 <th>Email</th>
                 <th>Ngày sinh</th>
                 <th>CCCD/CMND</th>
-                <th>Tên công ty</th>
-                <th>Địa chỉ công ty</th>
-                <th>Mã số thuế</th>
                 <th>Trạng thái</th>
               </tr>
             </thead>
@@ -333,29 +330,7 @@
                 </td>
                 <td><span class="text-muted">1</span></td>
                 <td>
-                  <a
-                    href="https://user.haweb.vn/dashboard/customers/4"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-customers-edit"
-                    class="text-reset customers_edit"
-                    tabindex="-1"
-                    data-id="4"
-                    data-first_name="Nguyễn Văn"
-                    data-last_name="Lâm"
-                    data-address="119/22 Trung Mỹ Tây 13, phường Trung Mỹ Tây , Quận 12 , TP Hồ Chí Minh"
-                    data-birth_day="1980-10-01"
-                    data-identity_card="0815143089"
-                    data-company_name="CÔNG TY TNHH XÂY DỰNG PHÁT TRIỂN ĐĂNG KHÔI"
-                    data-company_address="119/22 Trung Mỹ Tây 13, phường Trung Mỹ Tây , Quận 12 , TP Hồ Chí Minh"
-                    data-company_tax_code="0317491011"
-                    data-email="Nguyenlamabc9@gmail.com"
-                    data-phone="0815143089"
-                    data-zalo="0815143089"
-                    data-fax="0815143089"
-                    data-note=""
-                    data-status="public"
-                    data-action="https://user.haweb.vn/dashboard/customers/4"
-                  >
+                  <a href="" class="text-reset customers_edit">
                     <h3 class="title-name">Lâm Nguyễn Văn</h3>
                   </a>
                 </td>
@@ -370,20 +345,6 @@
                   <span class="label_year pending">0815143089</span>
                 </td>
                 <td>
-                  <span>CÔNG TY TNHH XÂY DỰNG PHÁT TRIỂN ĐĂNG KHÔI</span>
-                </td>
-                <td>
-                  <span
-                    >119/22 Trung Mỹ Tây 13, phường Trung Mỹ Tây , Quận 12 , TP
-                    Hồ Chí Minh</span
-                  >
-                </td>
-
-                <td>
-                  <span>0317491011</span>
-                </td>
-
-                <td>
                   <span class="label_year public">public</span>
                 </td>
               </tr>
@@ -397,29 +358,7 @@
                 </td>
                 <td><span class="text-muted">2</span></td>
                 <td>
-                  <a
-                    href="https://user.haweb.vn/dashboard/customers/3"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-customers-edit"
-                    class="text-reset customers_edit"
-                    tabindex="-1"
-                    data-id="3"
-                    data-first_name="Đỗ Văn"
-                    data-last_name="Văn"
-                    data-address="Đường Lê Thánh Tông, TX, KP.Song Vĩnh P, Tân Thành, Bà Rịa - Vũng Tàu"
-                    data-birth_day="1075-01-01"
-                    data-identity_card="096 238 23 23"
-                    data-company_name=""
-                    data-company_address=""
-                    data-company_tax_code=""
-                    data-email=""
-                    data-phone="096 238 23 23"
-                    data-zalo=""
-                    data-fax=""
-                    data-note=""
-                    data-status="private"
-                    data-action="https://user.haweb.vn/dashboard/customers/3"
-                  >
+                  <a href="" class="text-reset customers_edit">
                     <h3 class="title-name">Văn Đỗ Văn</h3>
                   </a>
                 </td>
@@ -434,17 +373,6 @@
                   <span class="label_year pending">096 238 23 23</span>
                 </td>
                 <td>
-                  <span></span>
-                </td>
-                <td>
-                  <span></span>
-                </td>
-
-                <td>
-                  <span></span>
-                </td>
-
-                <td>
                   <span class="label_year private">private</span>
                 </td>
               </tr>
@@ -458,29 +386,7 @@
                 </td>
                 <td><span class="text-muted">3</span></td>
                 <td>
-                  <a
-                    href="https://user.haweb.vn/dashboard/customers/2"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-customers-edit"
-                    class="text-reset customers_edit"
-                    tabindex="-1"
-                    data-id="2"
-                    data-first_name="Nguyen Văn"
-                    data-last_name="A"
-                    data-address="255 Phạm Văn Chiêu, TP Hồ Chí Minh"
-                    data-birth_day="2002-09-09"
-                    data-identity_card="123456789"
-                    data-company_name="Nguyen Van A CO.LTD"
-                    data-company_address="Tân Bình, Hồ Chí Minh"
-                    data-company_tax_code="0987654321"
-                    data-email="phamvanchieu@gmail.com"
-                    data-phone="0918456441"
-                    data-zalo="0918456441"
-                    data-fax="0918456441"
-                    data-note=""
-                    data-status="public"
-                    data-action="https://user.haweb.vn/dashboard/customers/2"
-                  >
+                  <a href="" class="text-reset customers_edit">
                     <h3 class="title-name">A Nguyen Văn</h3>
                   </a>
                 </td>
@@ -495,17 +401,6 @@
                   <span class="label_year pending">123456789</span>
                 </td>
                 <td>
-                  <span>Nguyen Van A CO.LTD</span>
-                </td>
-                <td>
-                  <span>Tân Bình, Hồ Chí Minh</span>
-                </td>
-
-                <td>
-                  <span>0987654321</span>
-                </td>
-
-                <td>
                   <span class="label_year public">public</span>
                 </td>
               </tr>
@@ -519,29 +414,7 @@
                 </td>
                 <td><span class="text-muted">4</span></td>
                 <td>
-                  <a
-                    href="https://user.haweb.vn/dashboard/customers/1"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-customers-edit"
-                    class="text-reset customers_edit"
-                    tabindex="-1"
-                    data-id="1"
-                    data-first_name="King Man"
-                    data-last_name="Her"
-                    data-address="Tân Phú, TP Hồ Chí Minh"
-                    data-birth_day="1996-07-18"
-                    data-identity_card="0987654321"
-                    data-company_name="MPH Company CO.LTD"
-                    data-company_address="Tân Phú"
-                    data-company_tax_code="123456789"
-                    data-email="kingman_her@gmail.com"
-                    data-phone="0987654321"
-                    data-zalo="0987654321"
-                    data-fax="0987654321"
-                    data-note=""
-                    data-status="public"
-                    data-action="https://user.haweb.vn/dashboard/customers/1"
-                  >
+                  <a href="" class="text-reset customers_edit">
                     <h3 class="title-name">Her King Man</h3>
                   </a>
                 </td>
@@ -555,17 +428,6 @@
                 <td>
                   <span class="label_year pending">0987654321</span>
                 </td>
-                <td>
-                  <span>MPH Company CO.LTD</span>
-                </td>
-                <td>
-                  <span>Tân Phú</span>
-                </td>
-
-                <td>
-                  <span>123456789</span>
-                </td>
-
                 <td>
                   <span class="label_year public">public</span>
                 </td>

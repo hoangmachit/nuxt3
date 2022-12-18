@@ -233,13 +233,10 @@
                   </svg>
                 </th>
                 <th>Tên Gói</th>
-                <th>IP</th>
                 <th>GB</th>
                 <th>RAM</th>
-                <th>Giá cũ</th>
-                <th>Giá giảm</th>
+                <th>Giá</th>
                 <th>Chú thích</th>
-                <th class="d-none">Giá cũ</th>
                 <th>Trạng thái</th>
               </tr>
             </thead>
@@ -255,36 +252,17 @@
                 <td><span class="text-muted">1</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/12"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="LƯƠNG YẾN PHƯƠNG"
-                    data-gb="20"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn : 16/06/2023"
-                    data-status="public"
-                    data-id="12"
-                    data-action="https://user.haweb.vn/dashboard/hostings/12"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/12"
-                    data-price="12000000"
-                    data-price_special="10000000"
                   >
                     <h3 class="title-name">LƯƠNG YẾN PHƯƠNG</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>20GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">12.000.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">10.000.000 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn : 16/06/2023</td>
                 <td class="d-none">700.000<sup>đ</sup></td>
@@ -303,36 +281,17 @@
                 <td><span class="text-muted">2</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/11"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="PHẠM NGỌC LUYẾN ( CHỊ NGỌC )"
-                    data-gb="5"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn : 01/06/2022"
-                    data-status="public"
-                    data-id="11"
-                    data-action="https://user.haweb.vn/dashboard/hostings/11"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/11"
-                    data-price="4872000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">PHẠM NGỌC LUYẾN ( CHỊ NGỌC )</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>5GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">4.872.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn : 01/06/2022</td>
                 <td class="d-none">700.000<sup>đ</sup></td>
@@ -351,36 +310,17 @@
                 <td><span class="text-muted">3</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/10"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="ĐẶNG TẤN XUÂN"
-                    data-gb="10"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn : 20/05/2023"
-                    data-status="public"
-                    data-id="10"
-                    data-action="https://user.haweb.vn/dashboard/hostings/10"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/10"
-                    data-price="7200000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">ĐẶNG TẤN XUÂN</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>10GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">7.200.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn : 20/05/2023</td>
                 <td class="d-none">700.000<sup>đ</sup></td>
@@ -399,41 +339,21 @@
                 <td><span class="text-muted">4</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/9"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="CÔNG TY TNHH MÁY CHẾ BIẾN GỖ CHÍNH XÁC MUSTANG"
-                    data-gb="2"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn : 10/05/2023"
-                    data-status="private"
-                    data-id="9"
-                    data-action="https://user.haweb.vn/dashboard/hostings/9"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/9"
-                    data-price="2388000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">
                       CÔNG TY TNHH MÁY CHẾ BIẾN GỖ CHÍNH XÁC MUSTANG
                     </h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>2GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">2.388.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn : 10/05/2023</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year private">private</span>
                 </td>
@@ -449,39 +369,19 @@
                 <td><span class="text-muted">5</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/8"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="HÀ THỊ MINH NGUYỆT"
-                    data-gb="2"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn: 24/04/2023"
-                    data-status="private"
-                    data-id="8"
-                    data-action="https://user.haweb.vn/dashboard/hostings/8"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/8"
-                    data-price="2388000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">HÀ THỊ MINH NGUYỆT</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>2GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">2.388.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn: 24/04/2023</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year private">private</span>
                 </td>
@@ -497,42 +397,22 @@
                 <td><span class="text-muted">6</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/7"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="CÔNG TY TNHH THƯƠNG MẠI DỊC VỤ CÔNG NGHỆ PHỐ XANH"
-                    data-gb="5"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Tặng Host năm đầu 
-Hết hạn : 13/04/2023"
-                    data-status="private"
-                    data-id="7"
-                    data-action="https://user.haweb.vn/dashboard/hostings/7"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/7"
-                    data-price="4872000"
-                    data-price_special="0"
+                   
                   >
                     <h3 class="title-name">
                       CÔNG TY TNHH THƯƠNG MẠI DỊC VỤ CÔNG NGHỆ PHỐ XANH
                     </h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>5GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">4.872.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Tặng Host năm đầu Hết hạn : 13/04/2023</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year private">private</span>
                 </td>
@@ -548,39 +428,19 @@ Hết hạn : 13/04/2023"
                 <td><span class="text-muted">7</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/6"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="NGUYỄN THỊ THANH"
-                    data-gb="2"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn 23/04/2023"
-                    data-status="public"
-                    data-id="6"
-                    data-action="https://user.haweb.vn/dashboard/hostings/6"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/6"
-                    data-price="2388000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">NGUYỄN THỊ THANH</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>2GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">2.388.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn 23/04/2023</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year public">public</span>
                 </td>
@@ -596,39 +456,19 @@ Hết hạn : 13/04/2023"
                 <td><span class="text-muted">8</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/5"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="DƯƠNG VĂN CẢNH"
-                    data-gb="2"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn 07/04/3023"
-                    data-status="public"
-                    data-id="5"
-                    data-action="https://user.haweb.vn/dashboard/hostings/5"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/5"
-                    data-price="2388000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">DƯƠNG VĂN CẢNH</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>2GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">2.388.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn 07/04/3023</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year public">public</span>
                 </td>
@@ -644,39 +484,19 @@ Hết hạn : 13/04/2023"
                 <td><span class="text-muted">9</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/4"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="NGUYỄN HỒNG LONG"
-                    data-gb="5"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn 30/03/2023"
-                    data-status="public"
-                    data-id="4"
-                    data-action="https://user.haweb.vn/dashboard/hostings/4"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/4"
-                    data-price="4872000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">NGUYỄN HỒNG LONG</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>5GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">4.872.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn 30/03/2023</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year public">public</span>
                 </td>
@@ -692,39 +512,19 @@ Hết hạn : 13/04/2023"
                 <td><span class="text-muted">10</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/3"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="VŨ ĐỨC VIỆT"
-                    data-gb="2"
-                    data-ram="1"
-                    data-ip=""
-                    data-note="Hết hạn 16/03/2022"
-                    data-status="public"
-                    data-id="3"
-                    data-action="https://user.haweb.vn/dashboard/hostings/3"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/3"
-                    data-price="2388000"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">VŨ ĐỨC VIỆT</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending"></span>
-                </td>
+                
                 <td>2GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">2.388.000 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Hết hạn 16/03/2022</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year public">public</span>
                 </td>
@@ -740,39 +540,18 @@ Hết hạn : 13/04/2023"
                 <td><span class="text-muted">11</span></td>
                 <td>
                   <a
-                    href="https://user.haweb.vn/dashboard/hostings/1"
+                    href=""
                     class="text-reset hostings_edit"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modal-hosting-edit"
-                    tabindex="-1"
-                    data-name="Default"
-                    data-gb="1"
-                    data-ram="1"
-                    data-ip="000.000.000.000"
-                    data-note="Default"
-                    data-status="private"
-                    data-id="1"
-                    data-action="https://user.haweb.vn/dashboard/hostings/1"
-                    data-delete="https://user.haweb.vn/dashboard/hostings/1"
-                    data-price="0"
-                    data-price_special="0"
                   >
                     <h3 class="title-name">Default</h3>
                   </a>
                 </td>
-                <td>
-                  <span class="ip label_year pending">000.000.000.000</span>
-                </td>
                 <td>1GB</td>
                 <td>1GB</td>
                 <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
-                </td>
-                <td>
-                  <span class="domain_name">0 <sup>đ</sup></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
                 <td>Default</td>
-                <td class="d-none">700.000<sup>đ</sup></td>
                 <td>
                   <span class="label_year private">private</span>
                 </td>

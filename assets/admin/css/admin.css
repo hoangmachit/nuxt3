@@ -1,104 +1,120 @@
 .label_year {
-    display: inline-block;
-    padding: 0px 10px;
-    border-radius: 3px;
-    background: #2fb344 !important;
-    border: 1px solid #2fb344;
-    margin: 0px;
-    font-size: 13px;
-    color: #fff;
-    line-height: 24px;
-    height: 28px;
+  display: inline-block;
+  padding: 0px 10px;
+  border-radius: 3px;
+  background: #2fb344 !important;
+  border: 1px solid #2fb344;
+  margin: 0px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 24px;
+  height: 28px;
 }
 
 .no-drop {
-    cursor: no-drop;
+  cursor: no-drop;
 }
 
 .label_year.pending {
-    background: #7c0b0b !important;
-    border: 1px solid #7c0b0b;
-    color: #fff;
+  background: #7c0b0b !important;
+  border: 1px solid #7c0b0b;
+  color: #fff;
 }
 
 .label_year.public {
-    background: #2fb344 !important;
-    border: 1px solid #2fb344;
+  background: #2fb344 !important;
+  border: 1px solid #2fb344;
 }
 
 .label_year.private {
-    background: #000 !important;
-    border: 1px solid #000;
+  background: #000 !important;
+  border: 1px solid #000;
 }
 
 .domain_name {
-    display: inline-block;
-    padding: 0px 10px;
-    border-radius: 3px;
-    background: #7c0b0b !important;
-    border: 1px solid #7c0b0b;
-    margin: 0px;
-    font-size: 13px;
-    color: #fff;
-    line-height: 24px;
-    height: 28px;
+  display: inline-block;
+  padding: 0px 10px;
+  border-radius: 3px;
+  background: #7c0b0b !important;
+  border: 1px solid #7c0b0b;
+  margin: 0px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 24px;
+  height: 28px;
 }
 
 table#table_contracts tr,
 table#table_contracts td {
-    cursor: pointer !important;
+  cursor: pointer !important;
 }
 
 .icon-svg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .icon-svg svg {
-    display: block;
-    position: relative;
-    width: 20px;
-    height: 20px;
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
 }
 
 .icon-svg svg path {
-    fill: #000;
+  fill: #000;
 }
 
 .icon-svg .svg.active path {
-    fill: #2fb344;
+  fill: #2fb344;
 }
 
 .action-show-all .svg {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .btn-show-search {
-    width: 100%;
+  width: 100%;
 }
 
 .contract-code, .title-name {
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    margin: 0;
-    color: #333333;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin: 0;
+  color: #333333;
 }
 
 .btn-search {
-    overflow: hidden;
-    border-radius: 4px;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .btn-language {
-    padding: 0.4rem 0rem;
-    margin: 0px;
+  padding: 0.4rem 0rem;
+  margin: 0px;
 }
 
 h3.title-name {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+  text-transform: capitalize;
 }
+
+.split-w150 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+  display: block;
+}
+/*# sourceMappingURL=admin.css.map */

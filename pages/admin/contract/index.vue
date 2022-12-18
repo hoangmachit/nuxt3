@@ -200,10 +200,7 @@
 
                   <select
                     name="hosting_id"
-                    class="
-                      form-control
-                      contract_hosting contract_hosting_create
-                    "
+                    class="form-control contract_hosting contract_hosting_create"
                   >
                     <option value="1" data-price="0" data-price_special="0">
                       Default
@@ -334,12 +331,7 @@
                     />
 
                     <span
-                      class="
-                        form-selectgroup-label
-                        d-flex
-                        align-items-center
-                        p-3
-                      "
+                      class="form-selectgroup-label d-flex align-items-center p-3"
                       id="payment_1st"
                     >
                       <span class="me-3">
@@ -387,12 +379,7 @@
                     />
 
                     <span
-                      class="
-                        form-selectgroup-label
-                        d-flex
-                        align-items-center
-                        p-3
-                      "
+                      class="form-selectgroup-label d-flex align-items-center p-3"
                       id="payment_2st"
                     >
                       <span class="me-3">
@@ -742,24 +729,7 @@
       </div>
 
       <button type="submit" class="btn btn-primary ms-auto">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="icon"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          stroke-width="2"
-          stroke="currentColor"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-
-          <line x1="12" y1="5" x2="12" y2="19"></line>
-
-          <line x1="5" y1="12" x2="19" y2="12"></line>
-        </svg>
+        <AdminIconPlus />
         Tạo mới hợp đồng
       </button>
     </template>
@@ -820,7 +790,7 @@
                       />
                     </div>
                   </div>
-                  <div class="show-content-search" style="display: none">
+                  <div class="show-content-search">
                     <div class="row">
                       <div class="col-md-3">
                         <div class="mb-3">
@@ -889,38 +859,13 @@
                   <input type="hidden" name="show" value="false" />
                   <div class="col-lg-12">
                     <div class="row">
-                      <div class="col-md-2">
-                        <div class="action-show-all mb-3">
-                          <button
-                            id="btn-search"
-                            class="btn btn-show-search"
-                            type="button"
-                          >
-                            <span class="svg">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-plus"
-                                viewBox="0 0 16 16"
-                              >
-                                <path
-                                  d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
-                                ></path>
-                              </svg>
-                            </span>
-                            <span class="text-search">Hiện tất cả</span>
-                          </button>
-                        </div>
-                      </div>
                       <div class="col-md-3">
                         <div class="mb-3">
                           <button
-                            class="btn btn-search btn-danger form-control"
+                            class="btn btn-search btn-info form-control"
                             type="submit"
                           >
-                            Tìm kiếm
+                            <AdminIconSearch /> Tìm kiếm
                           </button>
                         </div>
                       </div>
@@ -989,25 +934,7 @@
 
                 <th class="w-1">
                   No.
-
-                  <!-- Download SVG icon from http://tabler-icons.io/i/chevron-up -->
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-sm text-dark icon-thick"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-
-                    <polyline points="6 15 12 9 18 15"></polyline>
-                  </svg>
+                  <AdminIconArrowDown />
                 </th>
 
                 <th>Code</th>
@@ -1066,22 +993,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg active">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1089,22 +1001,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1126,11 +1023,7 @@
                 </td>
 
                 <td>
-                  <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
-  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
-  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
-  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
-</svg></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
               </tr>
 
@@ -1165,22 +1058,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg active">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1188,22 +1066,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg active">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1225,12 +1088,7 @@
                 </td>
 
                 <td>
-                  <span
-                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
-  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
-  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
-  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
-</svg></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
               </tr>
 
@@ -1265,22 +1123,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg active">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1288,22 +1131,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1325,12 +1153,7 @@
                 </td>
 
                 <td>
-                  <span
-                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
-  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
-  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
-  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
-</svg></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
               </tr>
 
@@ -1365,22 +1188,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg active">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1388,22 +1196,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1425,12 +1218,7 @@
                 </td>
 
                 <td>
-                  <span
-                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
-  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
-  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
-  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
-</svg></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
               </tr>
 
@@ -1465,22 +1253,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg active">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1488,22 +1261,7 @@
                 <td>
                   <div class="icon-svg">
                     <span class="svg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-check-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-                        ></path>
-
-                        <path
-                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
-                        ></path>
-                      </svg>
+                      <AdminIconTick />
                     </span>
                   </div>
                 </td>
@@ -1523,14 +1281,8 @@
                 <td>
                   <span class="label_year private"> private </span>
                 </td>
-
                 <td>
-                  <span
-                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
-  <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
-  <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
-  <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
-</svg></span>
+                  <span><AdminIconEyeSlash /></span>
                 </td>
               </tr>
             </tbody>
